@@ -7,7 +7,8 @@
     "start": "node app.js",
     "login": "ibmcloud login -a https://api.au-syd.bluemix.net -g default -c eca1a04b7d8fda242db554b0c976b322",
     "target": "ibmcloud target -o ippei0605@gmail.com -s dev",
-    "push": "ibmcloud app push test-push-ippei0605"
+    "push": "ibmcloud app push test-push-ippei0605",
+    "stop": "ibmcloud app stop test-push-ippei0605"
   },
   "dependencies": {
     "cfenv": "^1.2.2",
