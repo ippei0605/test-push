@@ -2,6 +2,11 @@
 
 Web通知の検証をしています。
 
+* push.js
+  - https://pushjs.org/
+* Notifications API 
+  - https://developer.mozilla.org/ja/docs/WebAPI/Using_Web_Notifications
+
 ## ローカルでの確認
 ```
 % node app
