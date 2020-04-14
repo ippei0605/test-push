@@ -4,12 +4,14 @@
   "description": "Web通知の検証",
   "private": true,
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "login": "ibmcloud login -a https://api.au-syd.bluemix.net -g default -c eca1a04b7d8fda242db554b0c976b322",
+    "target": "ibmcloud target -o ippei0605@gmail.com -s dev",
+    "push": "ibmcloud app push test-push-ippei0605"
   },
   "dependencies": {
-    "body-parser": "^1.19.0",
+    "cfenv": "^1.2.2",
     "express": "^4.17.1",
-    "morgan": "^1.10.0",
     "serve-favicon": "^2.5.0"
   }
 }
